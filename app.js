@@ -14,7 +14,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req,res) => {
-    res.send('<h1>Store API</h1><a href = "/api/v1/products"> Products route </a>')
+    res.send('<h1>Store API</h1><a href = "/api/v1/products"> View all Products </a>')
 })
 
 //routes
